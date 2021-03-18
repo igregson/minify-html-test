@@ -1,0 +1,11 @@
+{
+  "name": "htmlMinifierTest",
+  "scripts": {
+    "watch": "node ./watch",
+    "watchAndMinify": "node ./watch --minify"
+  },
+  "dependencies": {
+    "@minify-html/js": "^0.4.3",
+    "chokidar": "^3.5.1"
+  }
+}
